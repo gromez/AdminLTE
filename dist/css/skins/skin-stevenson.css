@@ -162,19 +162,61 @@
   border-top-color: #605ca8;
 }
 .skin-stevenson .btn-primary {
+  color: white;
   background-color: #605ca8;
   border-color: #555299;
 }
 .skin-stevenson .btn-primary:hover,
 .skin-stevenson .btn-primary:active,
-.skin-stevenson .btn-primary.hover {
+.skin-stevenson .btn-primary.hover,
+.skin-stevenson .btn-primary.active {
   background-color: #555299;
+  color: #f2f2f2;
+}
+.skin-stevenson a {
+  color: #706db1;
 }
 .skin-stevenson a:hover,
 .skin-stevenson a:active,
-.skin-stevenson a:focus {
-  color: #555299;
+.skin-stevenson a:focus,
+.skin-stevenson a.active {
+  color: #434078;
 }
 .skin-stevenson .main-header .navbar-brand {
   font-family: 'Questrial', sans-serif;
+}
+.skin-stevenson .margin-t-5 {
+  margin-top: 5px;
+}
+.skin-stevenson .margin-b-5 {
+  margin-bottom: 5px;
+}
+.skin-stevenson #swipebox-title p {
+  line-height: normal;
+}
+.skin-stevenson h2.subtitle {
+  color: #605ca8;
+}
+.skin-stevenson hr.subtitle {
+  height: 2px;
+  color: #605ca8;
+  background-color: #605ca8;
+  border: 0;
+  margin-top: 0;
+}
+.skin-stevenson .tab-pane hr:last-child {
+  display: none;
+}
+@media (max-width: 992px) {
+  .skin-stevenson #sidebar .box-body {
+    max-height: 200px;
+    overflow: scroll;
+  }
+}
+@media (max-width: 767px) {
+  .skin-stevenson .navbar-form {
+    padding: 5px 15px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
 }

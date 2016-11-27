@@ -69,22 +69,73 @@
   }
 
   .btn-primary {
+    color: white;
     background-color: @purple;
     border-color: darken(@purple, 5%);
-    &:hover, &:active, &.hover {
+    &:hover, &:active, &.hover, &.active {
       background-color: darken(@purple, 5%);
+      color: darken(white, 5%);
     }
+  }
+
+  a {
+    color: lighten(@purple, 5%);
   }
 
   a:hover,
   a:active,
-  a:focus {
-    color: darken(@purple, 5%);
+  a:focus,
+  a.active {
+    color: darken(@purple, 15%);
   }
 
   .main-header {
     .navbar-brand {
       font-family: 'Questrial', sans-serif;
+    }
+  }
+
+  .margin-t-5 {
+    margin-top: 5px;
+  }
+
+  .margin-b-5 {
+    margin-bottom: 5px;
+  }
+
+  #swipebox-title {
+    p {
+      line-height: normal;
+    }
+  }
+
+  h2.subtitle {
+    color: @purple;
+  }
+
+  hr.subtitle {
+    height: 2px;
+    color: @purple;
+    background-color: @purple;
+    border: 0;
+    margin-top: 0;
+  }
+
+  .tab-pane hr:last-child {
+    display: none;
+  }
+
+  @media (max-width: @screen-md-min) {
+    #sidebar .box-body {
+      max-height: 200px;
+      overflow: scroll;
+    }
+  }
+
+  @media (max-width: @screen-header-collapse) {
+    .navbar-form {
+      padding: 5px 15px;
+      .box-shadow(none);
     }
   }
 }
