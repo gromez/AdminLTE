@@ -210,7 +210,7 @@
 @media (max-width: 992px) {
   .skin-stevenson #sidebar .box-body {
     max-height: 200px;
-    overflow: scroll;
+    overflow-y: auto;
   }
 }
 @media (max-width: 767px) {
