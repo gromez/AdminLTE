@@ -35,6 +35,7 @@ module.exports = function (grunt) {
           "dist/css/skins/skin-red-light.css": "build/less/skins/skin-red-light.less",
           "dist/css/skins/skin-purple-light.css": "build/less/skins/skin-purple-light.less",
           "dist/css/skins/skin-stevenson.css": "build/less/skins/skin-stevenson.less",
+          "dist/css/skins/skin-stevenson-admin.css": "build/less/skins/skin-stevenson-admin.less",
           "dist/css/skins/_all-skins.css": "build/less/skins/_all-skins.less"
         }
       },
@@ -61,6 +62,7 @@ module.exports = function (grunt) {
           "dist/css/skins/skin-red-light.min.css": "build/less/skins/skin-red-light.less",
           "dist/css/skins/skin-purple-light.min.css": "build/less/skins/skin-purple-light.less",
           "dist/css/skins/skin-stevenson.min.css": "build/less/skins/skin-stevenson.less",
+          "dist/css/skins/skin-stevenson-admin.min.css": "build/less/skins/skin-stevenson-admin.less",
           "dist/css/skins/_all-skins.min.css": "build/less/skins/_all-skins.less"
         }
       }
