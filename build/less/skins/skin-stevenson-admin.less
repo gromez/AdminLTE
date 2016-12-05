@@ -142,4 +142,34 @@
   .login-logo {
     font-family: 'Questrial', sans-serif;
   }
+
+  .table-profils {
+    text-align: center;
+    border: none;
+    tr:first-child {
+      th:first-child {
+        border: none;
+      }
+      th:nth-child(n+2) {
+        color: #ffffff;
+        background-color: @red;
+      }
+    }
+    th {
+      text-align: center;
+    }
+    tr:nth-child(n+2) {
+      td:first-child {
+        text-align: left;
+        color: #ffffff;
+        font-weight: bold;
+        background-color: @red;
+      }
+    }
+  }
+
+  .separator {
+    border-top: 1px solid @gray;
+    padding-top: 10px;
+  }
 }

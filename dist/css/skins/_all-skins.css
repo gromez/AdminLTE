@@ -2218,3 +2218,27 @@
 .skin-stevenson-admin .login-logo {
   font-family: 'Questrial', sans-serif;
 }
+.skin-stevenson-admin .table-profils {
+  text-align: center;
+  border: none;
+}
+.skin-stevenson-admin .table-profils tr:first-child th:first-child {
+  border: none;
+}
+.skin-stevenson-admin .table-profils tr:first-child th:nth-child(n+2) {
+  color: #ffffff;
+  background-color: #dd4b39;
+}
+.skin-stevenson-admin .table-profils th {
+  text-align: center;
+}
+.skin-stevenson-admin .table-profils tr:nth-child(n+2) td:first-child {
+  text-align: left;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #dd4b39;
+}
+.skin-stevenson-admin .separator {
+  border-top: 1px solid #d2d6de;
+  padding-top: 10px;
+}
