@@ -2189,7 +2189,11 @@
 .skin-stevenson-admin #swipebox-title p {
   line-height: normal;
 }
-.skin-stevenson-admin h2.subtitle {
+.skin-stevenson-admin h1.subtitle,
+.skin-stevenson-admin h2.subtitle,
+.skin-stevenson-admin h3.subtitle,
+.skin-stevenson-admin h4.subtitle,
+.skin-stevenson-admin h5.subtitle {
   color: #dd4b39;
 }
 .skin-stevenson-admin hr.subtitle {
@@ -2238,7 +2242,15 @@
   font-weight: bold;
   background-color: #dd4b39;
 }
-.skin-stevenson-admin .separator {
-  border-top: 1px solid #d2d6de;
-  padding-top: 10px;
+.skin-stevenson-admin hr.separator {
+  height: 1px;
+  color: #d2d6de;
+  background-color: #d2d6de;
+  border: 0;
+  margin: 10px 0;
+}
+.skin-stevenson-admin .table-datatable thead {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #dd4b39;
 }
